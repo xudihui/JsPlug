@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel='stylesheet' type='text/css' href='select.css' />	
+    <script type='text/javascript' src='../lib/jquery.js'></script>		
+    <script type='text/javascript' src='select.js'></script>		
+	</head>
+
+	<body>								
+
+	
+	
+	<div class="fix-search-click">
+		<select class="edit-select" id='test' >
+			<option value="1">我是控件下拉框</option>
+			<option value="2">一般</option>
+			<option value="3">重要</option>
+		</select>
+	</div>
+	
+	&nbsp;&nbsp;&nbsp;
+	<select>
+			<option value="1">我是原生下拉框</option>
+			<option value="2">一般</option>
+			<option value="3">重要</option>
+	</select>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+		  $('#test').iSelect();
+		});
+	</script>
+<body>
+</html>
+
+
+
+
+

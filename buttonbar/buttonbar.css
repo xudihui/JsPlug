@@ -1,0 +1,66 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/* index Document by tuy 2014.11.13*/
+
+/*font-family: "微软雅黑";*/
+
+
+/*--------------------------main---------------------------*/
+*{padding:0;margin:0;font-family:'微软雅黑';letter-spacing:0.1em}
+.buttonbar-wrap{
+display: block;
+float: left;
+font-size: 12px;
+height: 38px;
+width: 100%;
+background:#aaa
+}	
+.cui-btn-new{
+color:#fff;
+cursor: pointer;
+display: block;
+float: left;
+font-size: 12px;
+height: 38px;
+line-height: 38px;
+padding: 0px 20px;
+}	
+.cui-btn-new:hover{background:#888}
+.editmore ul{
+background:#bbb;
+width:90px;
+position:absolute;
+top:38px;left:0
+}
+.editmore ul li{
+list-style:none;
+border-bottom:1px dotted #fff;
+float:left;
+width:90px;
+}
+.editmore ul li a{
+font-weight:normal;
+float:left;
+width:90px;
+text-align:center;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+padding:0;
+}
+.editmore ul li a:hover{	
+background:none;
+color:#000
+}
+.editmore {
+height: 38px;
+line-height: 38px;
+margin-left: 0;
+display: inline-block;
+position:relative;
+text-align:center;
+color: #000;
+cursor: pointer;
+width: 90px;
+font-weight: bold;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type='text/javascript' src='canvas_blow.js'></script>		
+	
+    <title></title>
+    <style type="text/css">
+        body{
+            /*background: #efefef;*/
+        }
+        canvas{
+            -webkit-user-select:none;
+            -moz-user-select:none;
+
+        }
+        input{
+            width:400px;
+            font-size:18px;
+        }
+    </style>
+</head>
+<body>
+<img id="photo" src="temp.png"  alt=""/>
+<button onmousedown='aa.initCanvas()'>重新刮</button>
+<button onclick='aa.clearCanvas()'>全部刮开</button>
+</body>
+<script type="text/javascript">
+   var aa = new TUY.Canvas_blow({
+	   target : document.getElementById('photo'),
+	   txt : '刮开试试看',
+	   condition : 30,
+	   callback : function (){
+		alert('恭喜您！已经成功刮开超过30%的面积');
+	   }
+   })
+</script>
+</html>
