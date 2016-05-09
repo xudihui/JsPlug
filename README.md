@@ -7,7 +7,7 @@
 - 参数： config.panel <Object> 选择器，约定传入原生菜单容器DOM对象、jQuery对象、jQuery字符串选择器
 - 实例方法：appendButton(添加按钮)、resetButton(重置所有按钮)
 - 详情：当存在顶部定高菜单栏场景下，按钮菜单非常多，由于不同屏幕宽度，需要对按钮进行排列整理，它的主要作用是把屏幕宽度放不下的按钮，塞到末尾的更多按钮里面去，通过点击更多展开隐藏于内部的按钮。
-- 
+
 ##2. canvas_blow <画布模拟刮刮卡控件>
 - 参数1： config.target <Object> 原生的DOM选择器，约定传入目标图片元素
 - 参数2： config.txt <String> 刮刮卡的文字
@@ -15,7 +15,7 @@
 - 参数4： config.callback <Function> 回调函数
 - 实例方法：initCanvas(重新刮)、clearCanvas(全部刮开)
 - 详情：使用DOM两层结构模拟刮刮卡效果，配合画布的globalCompositeOperation = 'destination-out'实现伪蒙版的的刮卡功能。
-- 
+
 ##3. iSelect <下拉框控件>
 - 参数： 无
 - 方法：addOption(增加option选项)、delOption(删除option选项)、setValue(设置值)、disabledSelect(禁用下拉框)、unDisabledSelect(取消禁用下拉框)
