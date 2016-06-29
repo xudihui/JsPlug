@@ -1,4 +1,3 @@
-
 ;
 /**
  * 下拉框控件
@@ -6,7 +5,6 @@
  * @author xudihui
  * @date 2015.07.01 
  */
-
 (function($){
     var isIE = navigator.userAgent.indexOf("MSIE") != -1;//判断是否是IE11以下浏览器，因为IE11已经没有MSIE这个字符串在里面了
     var isIE6 = isIE&&!window.XMLHttpRequest;
