@@ -1,4 +1,3 @@
-
 ;
 /**
  * 刮刮卡js构造函数插件
@@ -52,7 +51,6 @@
 				img.parentNode.insertBefore(cvs,img);
                 that.initCanvas()
 			}
-
         },
 		
 		//初始化事件
@@ -76,7 +74,6 @@
                 end="touchend";
             }
             cvs.addEventListener(start,onTouchStart);
-            
             
             function onTouchStart(e){
                 e.preventDefault();
@@ -158,14 +155,12 @@
 				context.globalCompositeOperation = 'destination-out'; //整个插件最最关键的就是这一步了，类似于ps里面的蒙版功能，即我们在画布上画出来的图案都会让下面的image透出来
 				context.lineJoin = "round";
 				context.lineWidth = 15;
-	
 		},
 		
 		//清空画布
 		clearCanvas: function(){
                 this.cvs.getContext('2d').clearRect(0, 0, this.cvs.width, this.cvs.height); 
-		}		
-		
+		}			
   } 
 
    
