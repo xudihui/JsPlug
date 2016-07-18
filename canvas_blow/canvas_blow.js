@@ -160,7 +160,9 @@
 		//清空画布
 		clearCanvas: function(){
                 this.cvs.getContext('2d').clearRect(0, 0, this.cvs.width, this.cvs.height); 
-		}			
+		}		
+
+		
   } 
 
    
