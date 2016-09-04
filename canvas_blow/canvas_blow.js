@@ -1,5 +1,5 @@
 ;
-/**
+/** 
  * 刮刮卡js构造函数插件
  * @param config.target <Object> 原生的DOM选择器，约定传入目标图片元素
  * @param config.txt <String> 刮刮卡的文字
